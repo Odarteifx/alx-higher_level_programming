@@ -8,6 +8,6 @@ def best_score(a_dictionary):
         for score in a_dictionary.values():
             if best_score < score:
                 best_score = score
-            for name, score in a_dictionary.items():
-                if score == best_score:
-                    return name
+        for name, score in a_dictionary.items():
+            if score == best_score:
+                return name
